@@ -1,0 +1,210 @@
+/* --------header------- */
+.topbar img {
+    width: 100%;
+    height: 30px;
+}
+
+.navbar-nav li a {
+    margin: 0px 30px !important;
+    color: white !important;
+}
+
+.btn-outline-secondary {
+    border-color: #d3d9df !important;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+#header {
+    position: sticky !important;
+    z-index: 997 !important;
+    top: 0;
+    left: 0;
+}
+
+.search_bar {
+    padding-top: 10px !important;
+}
+
+.btn {
+    background-color: white !important;
+}
+
+.box_responsive {
+    color: white !important;
+    filter: invert(100%);
+}
+
+/* --------catogory----------- */
+.catogory {
+    background-color: white !important;
+    box-shadow: 0px 3px #888888;
+}
+
+.catogory_item li a {
+    color: black !important;
+}
+
+.catogory_item {
+    display: flex !important;
+}
+
+.catogory_ul {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbarNav {
+    align-items: center;
+}
+
+
+/* -------owl---------- */
+.back_wol {
+    background-color: #272828;
+    padding: 30px 0px;
+}
+
+/* ------------grocery Items-------------- */
+.Grocery {
+    padding-top: 100px;
+}
+
+.grocery_head {
+    background-color: rgb(241, 241, 12);
+    height: 100px;
+}
+
+.grocery_head a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    padding: 20px;
+}
+
+.grocery_cards {
+    padding: 20px !important;
+    justify-content: space-between;
+
+}
+
+.btn-primary {
+    border: none !important;
+}
+
+.card {
+    padding: 20px !important;
+    width: 100%;
+    border: 2px solid yellow !important;
+}
+
+.card-body img {
+    width: 100px;
+    padding-top: 15px !important;
+}
+
+.card-body {
+    padding: 0px !important;
+}
+
+
+.parent {
+    flex-direction: column;
+    padding: 0px 2px;
+    justify-content: space-between !important;
+}
+
+.Cart_btn {
+    margin: 5px 0px;
+}
+
+.Cart_btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.bord {
+    margin: 0px 10px;
+    border-left: 1px solid yellow;
+}
+
+/* -----------product page------------ */
+.Product_page {
+    padding: 50px !important;
+    justify-content: center !important;
+    display: flex;
+}
+
+.Product_card {
+    width: 100% !important;
+    border: none !important;
+}
+
+.madhur img {
+    width: 50% !important;
+    height: 250px !important;
+}
+.pad {
+    padding-left: 50px !important;
+}
+.add{
+    margin: 30px;
+}
+.Cart_product {
+    margin: 30px;
+}
+/* -------------cart page-------- */
+.product-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: dashed;
+}
+#product-product{
+    margin-top: 20px;
+    width: 100%;
+}
+.oral{
+    display: flex;
+    justify-content: space-between;
+}
+#product-product img {
+    width: 10%;
+}
+.incart_cart{
+    margin: 0px 40px;
+}
+.add_product{
+    color: black;
+    background-color: yellow;
+}
+.number_minus{
+    color: black;
+    background-color: yellow;
+   
+}
+.cross{
+    color: black;
+    background-color: yellow;
+    border: none;
+    margin: 0px 10px;
+}
+.price{
+    margin-right: 30px;
+}
+.total{
+    margin-right: 20px;
+}
+
+/* -----------basket---------- */
+.Basket-container{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+

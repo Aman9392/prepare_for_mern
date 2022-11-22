@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="E_cart.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ----------------header------------------------- -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="topbar container-fluid">
+                <div class="my-sm-3" id="brand ">
+                    <a class="navbar-brand my-sm-3" href="E_cart.html"><img
+                            src="https://aurasoftsolutions.com/img/logo-main.png" alt=""></a>
+                </div>
+
+                <div class="mid_nav">
+                    <button class=" box_responsive navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class=" login_cart_con collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cart.html" id="navbarDropdown">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg> Cart <span> 0 </span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <form class="d-flex">
+                    <div class=" search_bar input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!-- --------------------------product page--------------------- -->
+    <section class="Product_page">
+        <div class=" card Product_card mb-3">
+            <div class=" product-container  row g-0" id="Pro_container">
+                <div class=" madhur col-md-6 " id="item">
+                    <img src="https://www.madhursugar.com/assets/images/adv-pack-green.png"
+                        class="img-fluid rounded-start" alt="...">
+                    <h5 class="card-title">Madhur Sugar</h5>
+                    <p class="card-title">Big crystals born out of expert craftsmanship infuse a burst of sweetness
+                        in your cooking and dessert making.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body  pad ">
+                        <div class="parent d-flex">
+
+                            <h5 class="card-title">Available offers</h5>
+                            <p>Special PriceGet extra 5% off (price inclusive of cashback/coupon)</p>
+                            <p>Bank Offer5% Cashback on Flipkart Axis Bank Card</p>
+                            <p>Partner OfferSign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500*
+                            </p>
+                            <p>Partner OfferBuy this product and get upto ₹250 off on Flipkart Furniture</p>
+                            <div class="d-flex">
+                                <button class="add_item add" id="number_cart">Add to Cart</button>
+                                <a href="cart.html"><button class="Cart_product">Go to
+                                        Cart</button></a>
+                                <a href=""><button class="Cart_product">place order</button></a>
+                            </div>
+                            <h2 class="card-title">Price ₹45</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------secound-------------------------------------- -->
+    <section class="Product_page">
+        <div class=" card Product_card mb-3">
+            <div class=" product-container  row g-0" id="Pro_container">
+                <div class=" madhur col-md-6 " id="item">
+                    <img src="https://m.media-amazon.com/images/I/713RMBZQUXL._SX679_.jpg"
+                        class="img-fluid rounded-start" alt="...">
+                    <h5 class="card-title">Candyman Chocor</h5>
+                    <p class="card-title">Big crystals born out of expert craftsmanship infuse a burst of sweetness
+                        in your cooking and dessert making.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body  pad ">
+
+                        <div class="parent d-flex">
+
+                            <h5 class="card-title">Available offers</h5>
+                            <p>Special PriceGet extra 5% off (price inclusive of cashback/coupon)</p>
+                            <p>Bank Offer5% Cashback on Flipkart Axis Bank Card</p>
+                            <p>Partner OfferSign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500*
+                            </p>
+                            <p>Partner OfferBuy this product and get upto ₹250 off on Flipkart Furniture</p>
+                            <div class="d-flex">
+                                <button class="add_item add" id="number_cart">Add to Cart</button>
+                                <a href="cart.html"><button class="Cart_product">Go to
+                                        Cart</button></a>
+                                <a href=""><button class="Cart_product">place order</button></a>
+                            </div>
+                            <h2 class="card-title">Price ₹110</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------------third------------------------------------------ -->
+    <section class="Product_page">
+        <div class=" card Product_card mb-3">
+            <div class=" product-container  row g-0" id="Pro_container">
+                <div class=" madhur col-md-6 " id="item">
+                    <img src="https://rukminim1.flixcart.com/image/416/416/l0lbrm80/tea/d/g/r/-original-imagccn5en4vadh2.jpeg?q=70"
+                        class="img-fluid rounded-start" alt="...">
+                    <h5 class="card-title">Tata GOld</h5>
+                    <p class="card-title">Big crystals born out of expert craftsmanship infuse a burst of sweetness
+                        in your cooking and dessert making.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body  pad ">
+
+                        <div class="parent d-flex">
+
+                            <h5 class="card-title">Available offers</h5>
+                            <p>Special PriceGet extra 5% off (price inclusive of cashback/coupon)</p>
+                            <p>Bank Offer5% Cashback on Flipkart Axis Bank Card</p>
+                            <p>Partner OfferSign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500*
+                            </p>
+                            <p>Partner OfferBuy this product and get upto ₹250 off on Flipkart Furniture</p>
+                            <div class="d-flex">
+                                <button class="add_item add" id="number_cart">Add to Cart</button>
+                                <a href="cart.html"><button class="Cart_product">Go to
+                                        Cart</button></a>
+                                <a href=""><button class="Cart_product">place order</button></a>
+                            </div>
+                            <h2 class="card-title">Price ₹100</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------------------------four-------------------------------------------------- -->
+    <section class="Product_page">
+        <div class=" card Product_card mb-3">
+            <div class=" product-container  row g-0" id="Pro_container">
+                <div class=" madhur col-md-6 " id="item">
+                    <img src="https://rukminim1.flixcart.com/image/416/416/xif0q/nut-dry-fruit/4/o/m/250-daily-california-1-pouch-naturoz-original-imagg9sgkzpkfwhy.jpeg?q=70"
+                        class="img-fluid rounded-start" alt="...">
+                    <h5 class="card-title">Naturoz Daily California Almonds</h5>
+                    <p class="card-title">Big crystals born out of expert craftsmanship infuse a burst of sweetness
+                        in your cooking and dessert making.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body  pad ">
+
+                        <div class="parent d-flex">
+
+                            <h5 class="card-title">Available offers</h5>
+                            <p>Special PriceGet extra 5% off (price inclusive of cashback/coupon)</p>
+                            <p>Bank Offer5% Cashback on Flipkart Axis Bank Card</p>
+                            <p>Partner OfferSign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500*
+                            </p>
+                            <p>Partner OfferBuy this product and get upto ₹250 off on Flipkart Furniture</p>
+                            <div class="d-flex">
+                                <button class="add_item add" id="">Add to Cart</button>
+                                <a href="cart.html"><button class="Cart_product">Go to
+                                        Cart</button></a>
+                                <a href=""><button class="Cart_product">place order</button></a>
+                            </div>
+                            <h2 class="card-title">Price ₹200</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function onLoadCartNumbers() {
+            let productNumbers = localStorage.getItem('cartNumbers')
+            console.log("productNumbers", productNumbers);
+            if (productNumbers) {
+                document.querySelector('.nav-item span').textContent = productNumbers
+            }
+        }
+        onLoadCartNumbers();
+    </script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

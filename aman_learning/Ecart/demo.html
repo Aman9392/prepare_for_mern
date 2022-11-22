@@ -1,0 +1,79 @@
+<div id="product-product">
+    <!-- <img src="https://www.madhursugar.com/assets/images/adv-pack-green.png" alt=""></img>
+
+    <span class="price">$45</span>
+    <span class="quntity">
+        <svg class="add_item" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-plus" viewBox="0 0 16 16">
+            <path
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+        </svg>
+        <span class="incart_cart">2</span>
+        <svg class="number_minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-dash" viewBox="0 0 16 16">
+            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+        </svg>
+    </span>
+    <span id="total">
+        4500
+    </span> -->
+</div>
+<!-- <div class="my-2">
+    <button class="cross"> Remove</button>
+    <span class="brand">Madhur Suger</span>
+</div> -->
+
+<div class="Basket-container my-5">
+    <!-- Basket Total $00,00 -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- teo------------- -->
+`<div id="product-product">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+<img src=${item.image} alt=""></img>
+
+<span class="price">$${item.Price}</span>
+<span class="quntity">
+<svg class="add_item" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+</svg>
+<span class="incart_cart">${item.incart}</span>
+<svg class="number_minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+</svg>
+</span>
+<span id="total">
+$${item.incart * item.Price},00
+</span>
+</div> `;
+});
+productContainer.innerHTML += `
+<div class="Basket-container my-5">
+<h4 class="total">Basket Total</h4>
+<div>
+<h4 class="basket-total">
+$${cartCost},00
+</h4>
+</div>
+</div>`;
+}
+}

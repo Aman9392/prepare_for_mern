@@ -1,0 +1,37 @@
+.product-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: dashed;
+}
+#product-product{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#product-product img {
+    width: 10%;
+}
+.incart_cart{
+    margin: 0px 40px;
+}
+.add_item{
+    color: black;
+    background-color: yellow;
+    width: 12%;
+}
+.number_minus{
+    color: black;
+    background-color: yellow;
+    width: 12%;
+}
+.cross{
+    color: black;
+    background-color: yellow;
+    border: none;
+    margin: 0px 10px;
+}
+.price{
+    margin-right: 30px;
+}
