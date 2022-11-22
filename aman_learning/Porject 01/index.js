@@ -86,4 +86,3 @@
 // }
 // console.log(`Task 2 : Find Max count vowel :- ${findMaxCountVowel(getAllVowelCountInSting)}`);
 // console.log(`Task 3 : Find Min count vowel :- ${findMinCountVowel(getAllVowelCountInSting)}`); 
-dkfxkvxdfkfxkfddgjdfkjdjgsdjk
