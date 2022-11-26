@@ -33,7 +33,7 @@
 
 
 
-// // let str = 'Aurasoft Digitech Private Limited';
+// let str = '';
 // let str = 'Count number of vowels in a String in java Script';
 // // console.log("typeof(str) :-", typeof(str));
 // let arrByStr = str.toLowerCase().split('');
@@ -47,15 +47,15 @@
 //   vowels.forEach(vowel => {
 //     // console.log("pawar",typeof(str));
 //     const vowelCount = str.filter(item => item === vowel).length || 0;
-//     console.log("item === vowel" ,( item => item === vowel).length );
+//     // console.log("item === vowel" ,( item => item === vowel).length );
 //     result[vowel] = vowelCount;
-//     console.log("result[vowel] = vowelCount" , result[vowel] = vowelCount);
+//     // console.log("result[vowel] = vowelCount" , result[vowel] = vowelCount);
 //   })
-//   console.log("getAllVowelCountInStingHandler", result);
+// //   console.log("getAllVowelCountInStingHandler", result);
 //   return result;
   
 // }
-// console.log("return result" ,  result);
+// // console.log("return result" ,  result);
 // const getAllVowelCountInSting = getAllVowelCountInStingHandler(arrByStr || []);
 // console.log(`Task 1 : Get All vowels counts : - ${JSON.stringify(getAllVowelCountInSting)}`);
 
@@ -63,11 +63,11 @@
 // function findMaxCountVowel(obj) {
 //   let maxCount = 0, maxResult = '';
 //   for (let key in obj) {
-//     console.log("let key in obj", key);
-//     console.log("obj[key]", obj[key]);
-//     console.log("maxCount", maxCount);
+//     // console.log("let key in obj", key);
+//     // console.log("obj[key]", obj[key]);
+//     // console.log("maxCount", maxCount);
 //     if (obj[key] > maxCount) {
-//       console.log("obj[key] > maxCount", obj[key] > maxCount);
+//     //   console.log("obj[key] > maxCount", obj[key] > maxCount);
 //       maxCount = obj[key];
 //       maxResult = key;
 //     }
@@ -86,3 +86,4 @@
 // }
 // console.log(`Task 2 : Find Max count vowel :- ${findMaxCountVowel(getAllVowelCountInSting)}`);
 // console.log(`Task 3 : Find Min count vowel :- ${findMinCountVowel(getAllVowelCountInSting)}`); 
+
