@@ -469,3 +469,22 @@
 // }else{   
 //    console.log(`${string}: is not armstrong`);
 // }
+// let a = 535;
+// let arr = Array.from(String(a), Number);
+// var arrlen = arr.length
+// for(var i=1; i<=arrlen; i++){
+//     var total = arr[i]+i
+// }
+// console.log(total);
+// var add = parseInt(arr)+parseInt(a);
+
+// var num = 353; 
+// rem = '';
+// sum = 0;
+// while(num)
+// {
+//   rem = num%10;
+//   sum = sum+rem
+//   num = Math.floor(num/10);
+// }
+// console.log(sum);
